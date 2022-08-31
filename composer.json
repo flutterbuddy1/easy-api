@@ -1,0 +1,29 @@
+{
+    "name": "flutterbuddy1/easy-api",
+    "description": "Easy Way to integrate API in you laravel application.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Flutterbuddy1\\EasyApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "flutterbuddy1",
+            "email": "mayanksmind@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Flutterbuddy1\\EasyApi\\EasyApiServiceProvider"
+            ],
+            "dont-discover": [
+                "Flutterbuddy1\\EasyApi\\"
+            ]
+        }
+    }
+}
