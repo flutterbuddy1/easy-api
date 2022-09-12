@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('api/{table}',[\Flutterbuddy1\EasyApi\Http\Controllers\ApiController::class,'index']);
+Route::get('{table}',[\Flutterbuddy1\EasyApi\Http\Controllers\ApiController::class,'index']);
     
 Route::get('{table}/{id}',[\Flutterbuddy1\EasyApi\Http\Controllers\ApiController::class,'get']);
 
