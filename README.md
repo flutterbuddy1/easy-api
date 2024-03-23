@@ -87,7 +87,7 @@ Post Data in JSON :
 ```
 
 
-### Delete Data API
+### Update Data API
 
 Send `PUT` Request in this api.
 ```
@@ -106,7 +106,7 @@ Post Data in JSON :
 
 ```
 
-### Update Data API
+### Delete Data API
 
 Send `DELETE` Request in this api.
 ```
